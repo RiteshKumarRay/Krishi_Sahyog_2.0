@@ -17,7 +17,7 @@
 - **Google Sign-In Integration** - Seamless authentication using Google OAuth
 - **Mock User Support** - Test accounts for different user roles (Farmer, Advisor, Admin)
 - **Biometric Login** - Fingerprint/Face ID support for enhanced security
-- **Voice Input** - Voice-based login for low-literacy users
+- **Phone Number** - Phone Number with OTP based authentication for low-literacy users
 
 ### 🌤️ Weather Dashboard
 - **Real-time Weather Data** - Integration with OpenWeatherMap API
@@ -115,70 +115,10 @@ text
 <img src="screenshots/features.jpg" width="200" alt="Features">
 </p>
 
-## 🧪 Testing
-
-### Test Accounts
-Use these credentials for testing different user roles:
-
-**Farmer Account:**
-- Mobile: `9876543210`
-- Password: `farmer123`
-
-**Advisor Account:**
-- Mobile: `9876543211`
-- Password: `advisor123`
-
-**Admin Account:**
-- Mobile: `1234567890`
-- Password: `123456`
-
-### Running Tests
-
-flutter test
-flutter integration_test
-
-text
-
-## 🌐 API Integration
-
-### Weather Service
-The app integrates with OpenWeatherMap API for real-time weather data:
-- Current weather conditions
-- 5-day forecast
-- Weather alerts
-- Location-based weather data
-
-### Authentication Flow
-- Google OAuth 2.0 integration
-- Firebase Authentication backend
-- Secure token management
-- Multi-device synchronization
-
-## 🎨 UI/UX Design
-
-### Design Principles
-- **Simplicity**: Clean, intuitive interface for farmers
-- **Accessibility**: Voice commands and visual aids
-- **Localization**: Hindi and English language support
-- **Responsiveness**: Works on various screen sizes
-
-### Color Scheme
-- Primary: Green (#4CAF50) - representing agriculture
-- Secondary: Blue (#2196F3) - representing technology
-- Accent: Orange (#FF9800) - for alerts and highlights
-
-## 🔒 Security Features
-
-- **Secure Authentication** - Firebase Auth with Google OAuth
-- **Data Encryption** - All API communications encrypted
-- **Permission Management** - Granular app permissions
-- **Biometric Security** - Fingerprint/Face ID support
-
-## 🌍 Localization
-
 The app supports multiple languages:
 - **Hindi** - Primary language for Indian farmers
 - **English** - Secondary language option
+- **Punjabi** - other regional languages as well
 - **Voice Support** - Audio in both languages
 
 ## 🤝 Contributing
@@ -198,17 +138,6 @@ We welcome contributions! Please follow these steps:
 - Ensure responsive design
 - Test on multiple devices
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Team
-
-- **Lead Developer** - RiteshKumarRay
-- **UI/UX Designer** - RiteshKumarRay
-- **Agricultural Expert** - ShivamSinghYadav
-- **Backend Developer** - ShivamSinghYadav
-
 ## 🙏 Acknowledgments
 
 - **OpenWeatherMap** - Weather API services
@@ -216,22 +145,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Flutter Team** - Amazing cross-platform framework
 - **Agricultural Department** - Domain expertise and guidance
 
-## 📞 Support
+## 📞 Support (not ready now)
 
 For support, questions, or suggestions:
 - Email: support@krishisahyog.com
 - GitHub Issues: [Create an issue](https://github.com/yourusername/krishi-sahyog/issues)
 - Documentation: [Wiki](https://github.com/yourusername/krishi-sahyog/wiki)
 
-## 🚧 Roadmap
 
-### Current Version (v1.0)
-- ✅ User authentication
-- ✅ Weather dashboard
-- ✅ Basic crop advisory
-- ✅ Multi-language support
-
-### Upcoming Features (v2.0)
+### Upcoming Features (v3.0)
 - 🔄 AI-powered crop disease detection
 - 🔄 IoT sensor integration
 - 🔄 Community forum
