@@ -160,7 +160,7 @@ For support, questions, or suggestions:
 - 🔄 Marketplace integration
 - 🔄 Advanced analytics dashboard
 
----
+----
 
 <p align="center">
   Made with ❤️ for farmers by the Krishi Sahyog team
